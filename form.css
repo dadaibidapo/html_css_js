@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ddd;
+    font-family: 'Segoe UI';
+    overflow: hidden;
+}
+
+
+input, label{
+    display: block;
+    margin: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 500px;
+    background-color: #fff;
+    margin: 5% auto;
+    border: 2px solid #eee;
+    padding: 20px 0;
+}
+
+.header h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+.header p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.header p a{
+    color: darkcyan;
+}
+
+form{
+    width: 500px;
+    
+}
+
+input{
+    width: 430px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid #eee;
+   
+}
+
+input[type='email']:focus, input[type='text']:focus, input[type='password']:focus{
+  border: 2px solid aqua;
+}
+
+input[type='submit']{
+    background-color: aqua;
+    border: none;
+    color: #fff;
+    width: 455px;
+}
+
+.submit-input{
+    margin-top: 20px;
+}
+
+.phone-input p, .tc{
+    margin: 10px 20px;
+}
+
+.tc{
+    text-align: center;
+}
+
+.tc span{
+    color: darkcyan;
+    cursor: pointer;
+}
+
+.tc a{
+    color: cyan;
+}
